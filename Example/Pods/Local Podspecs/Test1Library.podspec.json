@@ -1,0 +1,25 @@
+{
+  "name": "Test1Library",
+  "version": "0.1.0",
+  "summary": "A short description of Test1Library.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Test1Library",
+  "license": "MIT",
+  "authors": {
+    "William Peroche": "williamp@datacom.co.nz"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Test1Library.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Test1Library": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "Test1Library"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Test1Library."
+  s.summary          = "My Test Library"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Test1Library"
+#s.homepage         = "https://github.com/<GITHUB_USERNAME>/Test1Library"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "William Peroche" => "williamp@datacom.co.nz" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Test1Library.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/wperoche429/Test1Library.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '8.0'
@@ -31,10 +31,10 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'Test1Library' => ['Pod/Assets/*.png']
+    'Test1Library' => ['Pod/Assets/**/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end

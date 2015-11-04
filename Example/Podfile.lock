@@ -1,0 +1,14 @@
+PODS:
+  - Test1Library (0.1.0)
+
+DEPENDENCIES:
+  - Test1Library (from `../`)
+
+EXTERNAL SOURCES:
+  Test1Library:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Test1Library: 17e2b361da869fb180cddd0a02ccf7b6d1daf670
+
+COCOAPODS: 0.39.0
